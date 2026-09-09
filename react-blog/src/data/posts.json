@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "category": "React",
+    "author": "Murtaza",
+    "date": "2026-09-01",
+    "excerpt": "Learn the basics of components, props, state and events in React.",
+    "readTime": "5 min"
+  },
+  {
+    "id": 2,
+    "title": "CSS Grid vs Flexbox",
+    "category": "CSS",
+    "author": "Murtaza",
+    "date": "2026-09-03",
+    "excerpt": "A practical guide to choosing the right layout system for responsive interfaces.",
+    "readTime": "4 min"
+  },
+  {
+    "id": 3,
+    "title": "Understanding JavaScript Array Methods",
+    "category": "JavaScript",
+    "author": "Murtaza",
+    "date": "2026-09-05",
+    "excerpt": "Explore map, filter, find and reduce with simple examples.",
+    "readTime": "6 min"
+  },
+  {
+    "id": 4,
+    "title": "Building Reusable Components",
+    "category": "React",
+    "author": "Murtaza",
+    "date": "2026-09-07",
+    "excerpt": "Turn repeated UI patterns into clean reusable React components.",
+    "readTime": "5 min"
+  },
+  {
+    "id": 5,
+    "title": "Responsive Design Essentials",
+    "category": "CSS",
+    "author": "Murtaza",
+    "date": "2026-09-08",
+    "excerpt": "Build interfaces that remain usable across phones, tablets and desktops.",
+    "readTime": "7 min"
+  }
+]

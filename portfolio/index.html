@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio - Week 1 Full Stack Web Development">
+  <title>Mohammed Murtaza | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">MM<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">FULL STACK WEB DEVELOPMENT · WEEK 1</p>
+          <h1>Hi, I'm <span>Mohammed Murtaza</span>.</h1>
+          <p class="hero-text">
+            A student developer exploring web development, machine learning and practical software projects.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar">MM</div>
+          <p>Frontend fundamentals</p>
+          <div class="skills">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <p class="eyebrow">01 · ABOUT</p>
+      <h2>Building things, one project at a time.</h2>
+      <p class="section-text">
+        I'm interested in creating useful applications and learning how modern software systems work.
+        This portfolio demonstrates semantic HTML, responsive CSS, Flexbox/Grid and JavaScript interactions.
+      </p>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">02 · EDUCATION</p>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>Muffakham Jah College of Engineering and Technology</h3>
+              <p>Undergraduate Engineering · Hyderabad</p>
+              <span>Current</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <p class="eyebrow">03 · PROJECTS</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="tag">Machine Learning</span>
+          <h3>Explainable Credit Risk Prediction</h3>
+          <p>A machine-learning project for predicting loan default risk while providing interpretable model insights.</p>
+          <div class="tech"><span>Python</span><span>Scikit-learn</span><span>XAI</span></div>
+        </article>
+        <article class="project-card">
+          <span class="tag">Web Development</span>
+          <h3>React Blog UI</h3>
+          <p>A responsive blog interface with reusable components, JSON-based posts, search and category filtering.</p>
+          <div class="tech"><span>React</span><span>CSS</span><span>JSON</span></div>
+        </article>
+        <article class="project-card">
+          <span class="tag">Frontend</span>
+          <h3>E-commerce Landing Page</h3>
+          <p>A responsive product-focused landing page demonstrating Grid, Flexbox and mobile-first layout techniques.</p>
+          <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">04 · CONTACT</p>
+          <h2>Let's build something useful.</h2>
+          <p class="section-text">Fill out the form and the browser will validate your details before submission.</p>
+        </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>Name <input id="name" name="name" type="text" placeholder="Your name"></label>
+          <small class="error" id="nameError"></small>
+          <label>Email <input id="email" name="email" type="email" placeholder="you@example.com"></label>
+          <small class="error" id="emailError"></small>
+          <label>Message <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea></label>
+          <small class="error" id="messageError"></small>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="success" id="successMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Mohammed Murtaza · Week 1 MERN Stack Project</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
